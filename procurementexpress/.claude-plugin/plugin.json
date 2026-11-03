@@ -1,0 +1,13 @@
+{
+  "name": "procurementexpress",
+  "description": "Work with ProcurementExpress from your agent: pending approvals, budgets, purchase requests, supplier documents and invoice-to-PO matching.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ProcurementExpress"
+  },
+  "homepage": "https://www.procurementexpress.com",
+  "repository": "https://github.com/rubberstamp/procurementexpress-plugins",
+  "license": "MIT",
+  "keywords": ["procurement", "purchase-orders", "approvals", "budgets", "invoices", "mcp"],
+  "mcpServers": "./mcp.json"
+}

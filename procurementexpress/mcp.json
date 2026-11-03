@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "procurementexpress": {
+      "type": "http",
+      "url": "https://app.procurementexpress.com/mcp"
+    }
+  }
+}

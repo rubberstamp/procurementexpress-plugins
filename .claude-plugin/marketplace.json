@@ -1,0 +1,16 @@
+{
+  "name": "procurementexpress",
+  "owner": {
+    "name": "ProcurementExpress"
+  },
+  "metadata": {
+    "description": "Official ProcurementExpress plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "procurementexpress",
+      "source": "./procurementexpress",
+      "description": "Work with ProcurementExpress from your agent: pending approvals, budgets, purchase requests, supplier documents and invoice-to-PO matching."
+    }
+  ]
+}
