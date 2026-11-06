@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.procurementexpress/mcp",
+  "title": "ProcurementExpress",
+  "description": "Purchase orders, approvals, invoice-to-PO matching, budgets and purchase requests for AI agents.",
+  "version": "1.0.0",
+  "websiteUrl": "https://app.procurementexpress.com/mcp/setup",
+  "repository": {
+    "url": "https://github.com/rubberstamp/procurementexpress-plugins",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://app.procurementexpress.com/ms-icon-310x310.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "310x310"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.procurementexpress.com/mcp"
+    }
+  ]
+}

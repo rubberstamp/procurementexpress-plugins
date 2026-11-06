@@ -1,0 +1,22 @@
+name: procurementexpress
+type: remote
+dynamic:
+  tools: true
+meta:
+  category: finance
+  tags:
+    - finance
+    - procurement
+    - productivity
+    - remote
+about:
+  title: ProcurementExpress
+  description: Purchase orders, approvals, invoice-to-PO matching, budgets and purchase requests from ProcurementExpress, with a preview before every change.
+  icon: https://app.procurementexpress.com/ms-icon-310x310.png
+remote:
+  transport_type: streamable-http
+  url: https://app.procurementexpress.com/mcp
+oauth:
+  - provider: procurementexpress
+    secret: procurementexpress.personal_access_token
+    env: PROCUREMENTEXPRESS_PERSONAL_ACCESS_TOKEN

@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "name": "ProcurementExpress",
+  "packageName": "@toolsdk-remote/procurementexpress",
+  "description": "Official remote MCP server for ProcurementExpress: purchase orders awaiting approval, invoice-to-PO matching, budgets, supplier document drop and purchase requests. Every change is previewed before it is saved.",
+  "url": "https://app.procurementexpress.com/mcp/setup",
+  "logo": "https://app.procurementexpress.com/ms-icon-310x310.png",
+  "author": "ProcurementExpress",
+  "license": "Proprietary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.procurementexpress.com/mcp",
+      "auth": {
+        "type": "oauth2",
+        "scopes": ["procurement:read", "budgets:write", "invoices:read", "invoices:match", "documents:write", "purchase_orders:write"]
+      }
+    }
+  ]
+}
