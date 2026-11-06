@@ -1,0 +1,13 @@
+{
+  "identifier": "procurementexpress",
+  "name": "ProcurementExpress",
+  "version": "1.0.0",
+  "author": "ProcurementExpress",
+  "authorUrl": "https://procurementexpress.com",
+  "homepage": "https://app.procurementexpress.com/mcp/setup",
+  "icon": "https://app.procurementexpress.com/ms-icon-310x310.png",
+  "category": "productivity",
+  "cloudEndpoint": "https://app.procurementexpress.com/mcp",
+  "description": "Purchase orders, approvals, invoice-to-PO matching, budgets and purchase requests from ProcurementExpress. Every change is previewed before it is saved.",
+  "tags": ["procurement", "purchase-orders", "invoices", "budgets", "approvals", "finance"]
+}
